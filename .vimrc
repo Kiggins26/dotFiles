@@ -22,8 +22,8 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
-packadd! dracula
-colorscheme dracula
+map <C-n> :NERDTreeToggle<CR>
+
 
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
@@ -44,13 +44,14 @@ set noshowmode
 
 
 call plug#begin('~/.vim/plugged')
-Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
+Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 call plug#end()
+
+colorscheme dracula
