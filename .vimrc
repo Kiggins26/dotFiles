@@ -45,6 +45,7 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
+"Plug 'ackyshake/VimCompletesMe'
 Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
