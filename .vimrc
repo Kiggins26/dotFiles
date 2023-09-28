@@ -45,10 +45,8 @@ set noshowmode
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
-"Plug 'ackyshake/VimCompletesMe'
-Plug 'valloric/youcompleteme'
+Plug 'Kiggins26/VimCompletesMe'
 Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-fugitive'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
